@@ -1,18 +1,19 @@
 {
-  "name": "my-bot",
-  "version": "1.0.0",
-  "description": "",
+  "name": "kirby-bot",
+  "version": "1.1.0",
+  "description": "Kirby bot that will be used on discord servers",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "frankie1992",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "dotenv": "^6.2.0"
+    "dotenv": "^6.2.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
