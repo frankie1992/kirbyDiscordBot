@@ -12,7 +12,7 @@ https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-
 after downloading the project you will need to create a file in the root directory called .env and copy and paste the following line into it 
 
 ```
-BOT_TOKEN=<Your bot token here>
+TOKEN=<Your bot token here>
 ```
 
 after you have created that file run
