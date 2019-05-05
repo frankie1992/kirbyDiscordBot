@@ -74,11 +74,15 @@ client.on('message', msg=> {
         for(i=0; i < 10; i++){
           msg.reply('f', { tts: false })
           }
-      break; 
+      break;
 
       case '/sadkirby':
       msg.reply('https://data.whicdn.com/images/316839211/large.jpg')
-      break; 
+      break;
+
+      case 'nice':
+        msg.reply('https://cdn.discordapp.com/attachments/482225227611242508/574370061519945738/Capture.PNG')
+        break;
     }
   }
 
