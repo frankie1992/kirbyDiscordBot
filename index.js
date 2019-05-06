@@ -37,6 +37,9 @@ client.on('message', msg=> {
   else if(msg1.includes("thank")) {
   msg.reply("You're welcome")
 }
+  else if(msg1.includes("nice")){
+    msg.reply("https://cdn.discordapp.com/attachments/482225227611242508/574370061519945738/Capture.PNG")
+  }
   else{
     switch (msg1) {
 
@@ -79,10 +82,6 @@ client.on('message', msg=> {
       case '/sadkirby':
       msg.reply('https://data.whicdn.com/images/316839211/large.jpg')
       break;
-
-      case 'nice':
-        msg.reply('https://cdn.discordapp.com/attachments/482225227611242508/574370061519945738/Capture.PNG')
-        break;
     }
   }
 
