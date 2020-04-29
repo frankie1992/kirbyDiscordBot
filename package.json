@@ -1,6 +1,9 @@
 {
   "name": "kirby-bot",
   "version": "1.2.0",
+  "engines": {
+    "node": "13.11.x"
+  },
   "description": "Kirby bot that will be used on discord servers",
   "main": "index.js",
   "scripts": {
