@@ -1,33 +1,37 @@
 # kirbyDiscordBot
-A bot that will mainly send Kirby memes on request, but may expand functionality in the future
+A bot that will perform basic functions for Discord groups. 
+Current Fuctionallity:
+
+Random meme Generator
+Kirby meme Generator
+f for respect 
+answer "yes", "no" or "maybe" to questions that are asked to the bot
 
 ### Prerequisites
 
-you need to have NPM installed on your local machine 
-You will also need to follow the following guide in order to get a token for your bot 
+Node Version 13.11.x
+You will also need a token. Refer to the following guide. 
 https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
 
 ### Installing
 
-after downloading the project you will need to create a file in the root directory called .env and copy and paste the following line into it 
+Create a file in the root directory named ".env"
+Copy and paste the following line into the file. Dont forget to replace tokenHere with your token 
 
 ```
-TOKEN=<Your bot token here>
+TOKEN=<tokenHere>
 ```
 
-after you have created that file run
-
+Then run the following commands 
 ```
 npm install
 ```
-
-and then 
 
 ```
 npm run dev
 ```
 
-and if successful you should see the following prompt on your terminal
+If succesful you should see something simmilar to the following 
 
 ```
 [nodemon] 1.18.10
